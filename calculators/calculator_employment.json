@@ -1,11 +1,11 @@
 {
   "table": [
-    { "name": "מדריך", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
-    { "name": "מדריך דר", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
-    { "name": "אסיסטנט", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
     { "name": "תלמיד תואר שני - 22 שש", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
     { "name": "תלמיד תואר ראשון - 32 שש", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 32, "semestrialHours": 448 },
+    { "name": "מדריך", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
+    { "name": "אסיסטנט", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
     { "name": "עמית הוראה", "weeklyTeachingHours": 10, "weeklyNonTeachingHours": 27.5," semestrialHours": 385 },
+    { "name": "מדריך דר", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
     { "name": "מסלול מקביל", "weeklyTeachingHours": 16, "weeklyNonTeachingHours": null, "semestrialHours": null }
   ]
 }
