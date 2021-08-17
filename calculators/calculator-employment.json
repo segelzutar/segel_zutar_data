@@ -1,0 +1,10 @@
+{
+  "table": [
+    { "value": 1, "label": "עוזר הוראה ב", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 32, "semestrialHours": 448 },
+    { "value": 2, "label": "עוזר הוראה א", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
+    { "value": 3, "label": "אסיסטנט / מדריך", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
+    { "value": 4, "label": "עמית הוראה", "weeklyTeachingHours": 10, "weeklyNonTeachingHours": 27.5, "semestrialHours": 385 },
+    { "value": 5, "label": "מדריך ד״ר", "weeklyTeachingHours": 8, "weeklyNonTeachingHours": 22, "semestrialHours": 308 },
+    { "value": 6, "label": "מסלול מקביל", "weeklyTeachingHours": 16, "weeklyNonTeachingHours": null, "semestrialHours": null }
+  ]
+}
