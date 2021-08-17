@@ -1,0 +1,23 @@
+{
+  "years": [
+    { "value": 2019, "label": "תש״פ 2019-2020", "mapping": { "1": 10, "2": 20, "3": 30, "4": 40, "5": 50 } },
+    { "value": 2020, "label": "תשפ״א 2020-2021", "mapping": { "1": 100, "2": 200, "3": 300, "4": 400, "5": 500 } }
+  ],
+  "ranks": [
+    { "value": 1, "label": "מסטרנט 1" },
+    { "value": 2, "label": "מסטרנט 2" },
+    { "value": 3, "label": "דוקטורנט 3" },
+    { "value": 4, "label": "דוקטורנט 4" },
+    { "value": 5, "label": "פוסט דוקטורנט 5" }
+  ],
+  "scholarships": [
+    { "value": 1, "label": 25 },
+    { "value": 2, "label": 50 },
+    { "value": 3, "label": 75 },
+    { "value": 4, "label": 100 },
+    { "value": 5, "label": 125 },
+    { "value": 6, "label": 150 },
+    { "value": 7, "label": 175 },
+    { "value": 8, "label": 200 }
+  ]
+}
