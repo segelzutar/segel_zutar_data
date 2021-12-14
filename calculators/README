@@ -1,0 +1,37 @@
+# How did we calculate this
+Instead of writing a full scale generator for the (salary) date, I decided to
+do it manually but document it here (Peleg).
+
+## calculator_salary.json
+The main body of data here is the `table` list.
+Each entry in this table refers to a "teken".
+Each teken entry is an ordered dict, with the following items
+* name (Hebrew)
+* group: this is 1 for any teken that is not mmh (מורה מן החוץ)
+* havraaDays: this is a dictionary pointing from number of years to number of
+  days.  The keys should be strings (not sure why).  The first key must be "0".
+* pulses: this is a list of "pulses", each corresponds to the salary components
+  starting from a given date.
+
+The pulses have the following keys:
+* date: the start date of the pulse, in the format "YYYY-MM-DD".  The first
+  pulse should be somewhere in 2014 (previous cla).
+* Then there should be entries A,B,C,D,E,F,G (which I'll explain below).
+* We should not forget about "mipuy peimot".
+
+For the numbers corresponding to the entries A,B,C,D,E,F,G and how to obtain
+these from the salary tables:
+* A is "meshulav 2014".  It is given in the ifyun file.
+* B is obtained from the tables.  For the first pulse (2014), it should be
+  zero.  For later pulses it is obtained by looking at the "meshulav" column at
+  vetek 0, and substracting A.
+* C is the "vetek shikli".  It is given in the ifyun file.
+* D is the academic extra.  It is given in the ifyun file.
+* E is the calculation result of B * 0.176466809421842.  Don't ask me why.
+  Result of some reverse engineering.
+* F is the maximal vetek (in years).  It is given in the ifyun file (perhaps
+  not for maslul makbil)
+* G is only for mmh, and it is given (as is) in the tables.
+* H is value of Havraa day
+
+Note that "עוזר הוראה ב" is "עוזר הוראה 32".
